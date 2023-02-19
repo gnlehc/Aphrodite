@@ -1,0 +1,41 @@
+.container{
+    padding: 1.5rem;
+    display: flex;
+    box-sizing: border-box;
+    background-color: darkslategray;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+}
+.logo>img{
+    width: 10%;
+}
+.right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    gap: 2vw;
+    font-weight: 500;
+    list-style: none;
+}
+.menu>li:hover{
+    color: darkolivegreen;
+}
+.search{
+    width: 30%;
+    outline: none;
+    border: none;
+    height: 30%;
+    border-radius: 5px;
+    padding-left: 1vw;
+}
+.cart{
+    color: whitesmoke;
+}
