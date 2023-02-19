@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hero from './components/hero/Hero';
+import Header from './components/Header/Header';
+import Slider from './components/slider/Slider';
+import Virtual from './components/virtual/Virtual';
+import Products from './components/products/Products';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 
