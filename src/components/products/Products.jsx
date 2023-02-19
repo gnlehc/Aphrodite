@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import css from "./Products.module.css";
 import { sData } from "../../data/skincareAPI";
 import plane from "../../assets/plane.png";
+import {useAutoAnimate} from '@formkit/auto-animate/react'
 const Products = () => {
+  const [parent] = useAutoAnimate()
   const [menuProd, SetMenuProd] = useState(sData);
   const filter = (type) => {
     SetMenuProd(sData.filter((product) => product.type === type));
@@ -20,7 +22,7 @@ const Products = () => {
           <li onClick={() => filter("combination")}>Combination</li>
         </ul>
 
-        <div className={css.list}>
+        <div className={css.list} ref={parent}>
           {menuProd.map((product, i) => (
             <div className={css.product}>
               <div className="left-s">

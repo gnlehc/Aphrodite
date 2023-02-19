@@ -50,7 +50,7 @@
     transform: rotate(-20deg);
     position: absolute;
     right: 0;
-    width: 45%;
+    width: max-content;
     height: 100%;
     bottom: -20%;
 }
