@@ -3,9 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import { sData } from "../../data/skincareAPI";
 import "swiper/css";
-import "swiper/css/pagination"
-import "swiper/css/navigation"
-import "./Slider.css"
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "./Slider.css";
+import { Link } from "react-router-dom";
 const Slider = () => {
   return (
     <div className="s-container">
@@ -27,7 +28,17 @@ const Slider = () => {
                 <span>{slide.detail}</span>
               </div>
               <span>{slide.price}</span>
-              <div>Shop Now</div>
+              <Link to={"/cart"}>
+                <button
+                  style={{
+                    background: "none",
+                    color: "whitesmoke",
+                    border: "none",
+                  }}
+                >
+                  Shop Now!
+                </button>
+              </Link>
             </div>
             <img src={slide.image} alt="Product" className="img-p" />
           </SwiperSlide>

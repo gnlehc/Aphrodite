@@ -10,9 +10,7 @@ const Hero = () => {
           <span className={css.text1}>Skin Protection Cream</span>
           <div className={css.text2}>
             <span>For the love of beauty</span>
-            <span>{" "}
-            Feel A New Experience Beautiful Skin Starts Here
-            </span>
+            <span> Feel A New Experience Beautiful Skin Starts Here</span>
           </div>
         </div>
         {/* middleimagemainpage */}

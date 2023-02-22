@@ -1,62 +1,62 @@
-.container{
-    padding: 0rem 2rem;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+.container {
+  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
 }
-.wrapper{
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    position: relative;
+.wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
 }
-.wrapper>img{
-    width: 30rem;
-    position: absolute;
-    bottom: 0;
+.wrapper > img {
+  width: 30rem;
+  position: absolute;
+  bottom: 0;
 }
 
-.h_side{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+.h_side {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
-.text1{
-    padding-top: 2vw;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    width: min-content;
-    display: block;
-    font-weight: 600;
+.text1 {
+  padding-top: 2vw;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  width: min-content;
+  display: block;
+  font-weight: 600;
 }
-.text2{
-    display: flex;
-    flex-direction: column;
-    width: min-content;
-    color: whitesmoke;
+.text2 {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  color: whitesmoke;
 }
-.text2>:first-child{
-    font-weight: 800;
-    font-size: 2.5rem;
+.text2 > :first-child {
+  font-weight: 800;
+  font-size: 2.5rem;
 }
-.text2>:nth-child(2){
-    display: block;
+.text2 > :nth-child(2) {
+  display: block;
 }
-.traffic{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    padding-top: 2vw;
+.traffic {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-top: 2vw;
 }
-.traffic>:first-child{
-    font-weight: 800;
-    font-size: 2.5rem;
+.traffic > :first-child {
+  font-weight: 800;
+  font-size: 2.5rem;
 }
-.customer{
-    padding-top: 2vw;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+.customer {
+  padding-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
-.customer>:first-child{
-    font-weight: 800;
-    font-size: 2.5rem;
+.customer > :first-child {
+  font-weight: 800;
+  font-size: 2.5rem;
 }

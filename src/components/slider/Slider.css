@@ -21,36 +21,36 @@
   color: whitesmoke;
 }
 .s-container .swiper-button-next {
-  right: 6rem; 
+  right: 6rem;
   color: whitesmoke;
 }
-.name{
-    display: flex;
-    flex-direction: column;
+.name {
+  display: flex;
+  flex-direction: column;
 }
-.name>:nth-child(1){
-    font-size: 1.6rem;
-    font-weight: 600;
+.name > :nth-child(1) {
+  font-size: 1.6rem;
+  font-weight: 600;
 }
-.name>:nth-child(2){
-    font-size: 0.7rem;
+.name > :nth-child(2) {
+  font-size: 0.7rem;
 }
-.left-s>:nth-child(2){
-    font-weight: bold;
-    font-style: 2rem;
+.left-s > :nth-child(2) {
+  font-weight: bold;
+  font-style: 2rem;
 }
-.left-s>:nth-child(3){
-    font-size: 0.6rem;
-    border: 1px solid black;
-    padding: 5px 10px;
-    width: max-content;
-    border-radius: 15px;
+.left-s > :nth-child(3) {
+  font-size: 0.6rem;
+  border: 1px solid black;
+  padding: 5px 10px;
+  width: max-content;
+  border-radius: 15px;
 }
-.img-p{
-    transform: rotate(-20deg);
-    position: absolute;
-    right: 0;
-    width: max-content;
-    height: 100%;
-    bottom: -20%;
+.img-p {
+  transform: rotate(-20deg);
+  position: absolute;
+  right: 0;
+  width: max-content;
+  height: 100%;
+  bottom: -20%;
 }
